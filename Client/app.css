@@ -1,0 +1,47 @@
+body{
+    position: relative;
+    overflow-x: hidden !important;
+    background-image : url(https://www.ecopetit.cat/wpic/mpic/1-17538_house-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myForm{
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1.5px solid white;
+    border-radius: 25px;
+}    
+
+#myForm .form-control{
+    background-color: transparent;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select option{
+    color: black;
+}
+
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+  
+
+
+.result{
+    color: steelblue;
+}
+
+p{
+    color: red;
+}

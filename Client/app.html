@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/business-management-isometric-awesome-design/512/Office_Building-512.png" sizes="16x16" type="image/ico">
+    <title>Delhibricks</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body>
+    
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 m-auto m-md-1">
+                <form id="myForm" class="p-3">
+                    <br>
+                        <h4 style="color:white" class="text-center">Estimate House Price</h4>
+                    <br>
+                    <div class="form-group">
+                        <select class="form-control" id="bhk" required="required">
+                            <option selected="selected" disabled="disabled" value="">Choose BHK</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="area" placeholder="Enter Area (in sq.ft)" required="required">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="bath" required="required">
+                            <option selected="selected" disabled="disabled" value="">Choose Bath</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="parking" required="required">
+                            <option selected="selected" disabled="disabled" value="">Parking Space</option>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="type" required="required">
+                            <option selected="selected" disabled="disabled" value="">Select type of building</option>
+                            <option>Apartment</option>
+                            <option>Builder Floor</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="status" required="required">
+                            <option selected="selected" disabled="disabled" value="">Select status</option>
+                            <option>Ready To Move</option>
+                            <option>Almost Ready</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="furnishing" required="required">
+                            <option selected="selected" disabled="disabled" value="">Select type of furnishing</option>
+                            <option>Unfurnished</option>
+                            <option>Semi-Furnished</option>
+                            <option>Furnished</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="Locality" required="required">
+                            <option selected="selected" disabled="disabled" value="">Select location of the property</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="transaction" required="required">
+                            <option selected="selected" disabled="disabled" value="">Select type of property </option>
+                            <option>New Property</option>
+                            <option>Resale</option>
+                        </select>
+                    </div>
+                    <div class="text-center pt-3">
+                        <button class="submit btn btn-primary" onclick="onClickedEstimatePrice()" type="button" id="register">Estimate Price</button>
+                    </div>  
+                    <div id="warning" class="my-2 text-center">
+                        <p></p>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        
+    </div>
+
+
+    
+    
+    
+    
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+</body>
+</html>
