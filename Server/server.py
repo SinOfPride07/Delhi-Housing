@@ -27,7 +27,7 @@ def predict_home_price():
     status1 = request.form['status1']
     transaction = request.form['transaction']
     TYPE = request.form['TYPE']
-    print(area, bhk, bathroom, furnishing, parking, status1, transaction, TYPE, locality)
+    #print(area, bhk, bathroom, furnishing, parking, status1, transaction, TYPE, locality)
     response = jsonify({
         'calc_price': util.calc_price(area, bhk, bathroom, furnishing, parking, status1, transaction, TYPE, locality)
     })

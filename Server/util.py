@@ -18,7 +18,7 @@ def calc_price(area, bhk, bathroom, furnishing, parking, status1, transaction, T
     map_transaction = {'New Property': 1, 'Resale': 0}
     map_type = {'Apartment': 1, 'Builder Floor': 0}
     number_of_features = len(__data_columns)
-    print(number_of_features)
+
     x = np.zeros(number_of_features)
     x[0] = area
     x[1] = bhk

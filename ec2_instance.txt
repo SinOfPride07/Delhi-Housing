@@ -1,0 +1,1 @@
+ssh -i "C:\Users\Asus\.ssh\dhp.pem" ubuntu@ec2-3-19-240-231.us-east-2.compute.amazonaws.com
