@@ -2,7 +2,7 @@
 
 URL : http://ec2-3-19-240-231.us-east-2.compute.amazonaws.com/
 
-This project uses 9 different features to estimate the price of a property in different localities of Delhi. RandomForestRegressor 
+This project uses 9 different features to estimate the price of a property in different localities of Delhi. RandomForestRegressor was
 found to be the most accurate algorithm for this data (GridSearchCV was used to find the apt algorithm).
 
 The model is currently deployed in AWS EC2 instance and can be used by visting the link above.
